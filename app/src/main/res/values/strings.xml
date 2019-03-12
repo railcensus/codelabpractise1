@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">codelabpractise1</string>
+    <string name="hello_world_text">0</string>
+    <string name="count">count</string>
+    <string name="toast">toast</string>
+    <string name="random">random</string>
 </resources>
