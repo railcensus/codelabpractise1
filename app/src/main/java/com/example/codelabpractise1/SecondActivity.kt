@@ -3,6 +3,7 @@ package com.example.codelabpractise1
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.TextView
+import java.util.*
 import kotlin.random.Random
 
 class SecondActivity : AppCompatActivity() {
@@ -31,7 +32,7 @@ class SecondActivity : AppCompatActivity() {
 
         }
 
-        findViewById<TextView>(R.id.textview_random).text = Integer.toString(randomInt)
+        findViewById<TextView>(R.id.textview_random).text = String.format(Locale.ENGLISH,"%1d",randomInt)
 
         findViewById<TextView>(R.id.textview_label).text = getString(R.string.random_heading)
 
